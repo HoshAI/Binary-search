@@ -58,8 +58,8 @@ def binary_search(l, target, low=None, high=None):
   
         start = time.time()
         for target in sorted_list:
-            naive_search(sorted_list, target)
+            binary_search(sorted_list, target)
         end = time.time()
-        print("Naive search time: ", (end - start)/length, "seconds")
+        print("binary search time: ", (end - start)/length, "seconds")
   
         
